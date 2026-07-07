@@ -258,27 +258,10 @@ body.dark .button:hover, body.dark .btn:hover, body.dark .home-info .button:hove
 }
 .button:hover::after, .btn:hover::after, .home-info .button:hover::after { transform: translateX(100%); }
 
-/* ---------- Cards (post lists, if any appear) ---------- */
-.post-entry, .first-entry, .entry {
-  background: transparent !important;
-  border: 1px solid var(--line) !important;
-  border-radius: var(--radius);
-  box-shadow: none !important;
-  transition: transform .16s ease, box-shadow .18s ease, border-color .18s ease;
-}
-.post-entry:hover, .entry:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow);
-  border-color: color-mix(in srgb, var(--accent) 30%, transparent) !important;
-}
-.post-entry .entry-header h2, .post-entry .entry-header h1 {
-  transition: letter-spacing .18s ease, color .18s ease;
-}
-.post-entry:hover .entry-header h2, .post-entry:hover .entry-header h1 {
-  letter-spacing: -.018em;
-  color: var(--accent);
-}
-body.dark .post-entry:hover .entry-header h2, body.dark .post-entry:hover .entry-header h1 { color: #ddd8d8; }
+/* Research page cards use the theme's stock .post-entry styling
+   (see assets/css/common/post-entry.css) — intentionally not overridden
+   here so it matches the reference layout. Hover color is set via the
+   --midpurple token in assets/css/core/theme-vars.css instead. */
 
 /* ---------- Content polish ---------- */
 .post-content { line-height: 1.75; font-size: 1.06rem; }
@@ -667,43 +650,4 @@ body.dark .nk-chip:hover {
   .nk-aff-hitem::before { left: 0; top: .2rem; transform: none; }
 }
 
-/* ---------- Research page: single-entry layout (title / rule / abstract / meta) ---------- */
-.rp-entry { margin: 0 0 2.4rem; }
-.rp-entry:last-child { margin-bottom: 0; }
-
-.rp-title {
-  font-family: var(--font-heading);
-  font-size: 1.18rem;
-  font-weight: 700;
-  color: var(--ink);
-  margin: 0 0 .6rem;
-  line-height: 1.4;
-}
-
-.rp-rule {
-  border: none;
-  border-top: 1px solid var(--line);
-  margin: 0 0 .9rem;
-}
-
-.rp-abstract {
-  font-family: "Source Serif 4", Georgia, serif;
-  font-style: italic;
-  color: var(--muted);
-  line-height: 1.75;
-  margin: 0 0 .7rem;
-}
-
-.rp-meta {
-  font-size: .92rem;
-  color: var(--ink);
-  margin: 0 0 .2rem;
-}
-.rp-meta em { color: var(--accent); font-style: italic; }
-
-.rp-honors {
-  font-size: .82rem;
-  color: var(--muted);
-  margin: .3rem 0 0;
-}
 
