@@ -6,7 +6,7 @@ category: "Work in Progress"
 weight: 7
 venue: "Work in Progress"
 venueURL: ""
-authors: "Martina Pizzinato"
+authors: "<b>Martina Pizzinato</b>"
 honor: ""
 ---
 

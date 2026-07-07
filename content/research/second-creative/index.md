@@ -6,7 +6,7 @@ category: "Working Papers"
 weight: 3
 venue: "Working Paper"
 venueURL: ""
-authors: "Martina Pizzinato and Sarah Harvey"
+authors: "<b>Martina Pizzinato</b> and Sarah Harvey"
 honor: ""
 ---
 

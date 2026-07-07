@@ -23,9 +23,7 @@
     {{ .Content }}
   </div>
   {{- if .Params.honor }}
-  <h5><em>{{ .Params.honor | safeHTML }}</em></h5>
-  {{- else }}
-  <h5><em></em></h5>
+  <p class="research-honor">{{ .Params.honor | safeHTML }}</p>
   {{- end }}
   <footer class="entry-footer">
     {{- if .Params.venueURL }}
@@ -35,7 +33,7 @@
     {{- else }}
     <b>{{ .Params.venue }}</b>
     {{- end }}
-    <br>{{ .Params.authors }}</footer>
+    <br>{{ .Params.authors | safeHTML }}</footer>
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}

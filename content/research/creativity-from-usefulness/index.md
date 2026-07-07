@@ -6,7 +6,7 @@ category: "Book Chapters"
 weight: 10
 venue: "Book Chapter — A Guide to Key Theories for Concepts for Employee Creativity (Eds. C. E. Shalley & G. Koseoglu), Edward Elgar Publishing"
 venueURL: ""
-authors: "Sarah Harvey and Martina Pizzinato"
+authors: "Sarah Harvey and <b>Martina Pizzinato</b>"
 honor: ""
 ---
 

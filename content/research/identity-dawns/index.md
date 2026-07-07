@@ -6,7 +6,7 @@ category: "Working Papers"
 weight: 4
 venue: "Working Paper"
 venueURL: ""
-authors: "Martina Pizzinato, Clarissa Cortland, Colin Fisher, and Sarah Harvey"
+authors: "<b>Martina Pizzinato</b>, Clarissa Cortland, Colin Fisher, and Sarah Harvey"
 honor: ""
 ---
 

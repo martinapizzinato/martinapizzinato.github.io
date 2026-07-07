@@ -6,7 +6,7 @@ category: "Under Review"
 weight: 2
 venue: "Revise & Resubmit — Organization Science"
 venueURL: ""
-authors: "Martina Pizzinato and Pier Vittorio Mannucci"
+authors: "<b>Martina Pizzinato</b> and Pier Vittorio Mannucci"
 honor: ""
 ---
 

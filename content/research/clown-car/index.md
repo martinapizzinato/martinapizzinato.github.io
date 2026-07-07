@@ -6,7 +6,7 @@ category: "Under Review"
 weight: 1
 venue: "Revise & Resubmit — Administrative Science Quarterly"
 venueURL: ""
-authors: "Martina Pizzinato"
+authors: "<b>Martina Pizzinato</b>"
 honor: "Track Nominee, Best Student Paper, EGOS (2025) &middot; Best Paper Proceedings, AOM (2026) &middot; Nominee, Best Student-Led Paper, MOC Division, AOM (2026)"
 ---
 
