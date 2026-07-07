@@ -11,21 +11,18 @@ taxonomies:
 
 menu:
   main:
-    - name: Working Papers
-      url: /projects/
+    - name: Research
+      url: /research/
       weight: 1
-    - name: Publications
-      url: /papers/
-      weight: 2
     - name: Teaching
       url: /courses/
-      weight: 3
-    - name: News
-      url: /news/
-      weight: 4
+      weight: 2
+    # - name: News
+    #   url: /news/
+    #   weight: 3
     # - name: Archive
     #   url: /archive/
-    #   weight: 5
+    #   weight: 4
 
 params:
   description: "I'm a Ph.D. candidate in Management (Organizations and Innovation) at the UCL School of Management, supervised by Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods."
@@ -63,32 +60,35 @@ params:
           <div class="nk-aff-horg">Korea University</div>
           <div class="nk-aff-hrole">M.A. &middot; International Commerce</div>
         </div>
-        <div class="nk-aff-hitem nk-aff-hitem--primary">
-          <div class="nk-aff-horg">UCL School of Management</div>
+        <div class="nk-aff-hitem nk-aff-hitem--current">
+          <div class="nk-aff-horg">UCL School of Management &thinsp;<span class="nk-now">Now</span></div>
           <div class="nk-aff-hrole">MRes/Ph.D. &middot; Organizations &amp; Innovation</div>
         </div>
       </div>
       <p>
       Hello! I'm Martina, an MRes/Ph.D. student in Management (Organizations and Innovation) at the UCL School of Management,
-      supervised by Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods.
+      supervised by Sarah Harvey and Colin Fisher.
       </p>
       <p style="margin-top:.6rem">
       Before my Ph.D., I worked as a Global Business Development Manager at Ecube Labs in Seoul, South Korea (2019–2021).
       </p>
-      <p style="margin-top:.6rem">
+      <p style="margin-top:1.1rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.45rem;align-items:center">
+        <span class="nk-chip">Creativity</span>
+        <span class="nk-chip">Innovation</span>
+        <span class="nk-chip">Gender</span>
+        <span class="nk-chip">Technology</span>
+        <span class="nk-chip">Qualitative Methods</span>
+      </p>
+      <p style="margin-top:1.1rem">
       Thank you for visiting my webpage!
       </p>
     imageWidth: 180
     imageHeight: 180
     buttons:
-      - name: Working Papers
-        url: /projects/
-      - name: Publications
-        url: /papers/
+      - name: Research
+        url: /research/
       - name: Teaching
         url: /courses/
-      - name: News
-        url: /news/
 
   socialIcons:
     - name: CV
