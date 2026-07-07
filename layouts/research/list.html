@@ -34,6 +34,12 @@
     <strong class="research-venue">{{ .Params.venue }}</strong>
     {{- end }}
     <br>{{ .Params.authors | safeHTML }}</footer>
+  {{- if .Params.topics }}
+  <p class="research-topics">
+    {{- range .Params.topics }}<span class="nk-chip">{{ . }}</span>
+    {{- end }}
+  </p>
+  {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}

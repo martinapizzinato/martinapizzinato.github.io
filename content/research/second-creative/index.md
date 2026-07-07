@@ -2,6 +2,7 @@
 title: "The Second Creative: A Theory of Gendered Creative Work"
 date: 2026-01-01
 hideMeta: true
+topics: ["Creativity", "Innovation", "Gender"]
 category: "Working Papers"
 weight: 3
 venue: "Working Paper"

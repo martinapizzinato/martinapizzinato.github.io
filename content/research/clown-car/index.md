@@ -2,6 +2,7 @@
 title: "A Clown Car of One's Own: How Marginalized Creatives Cultivate Space for Creative Work through Generative Reclamation"
 date: 2026-01-01
 hideMeta: true
+topics: ["Creativity", "Innovation", "Gender", "Qualitative Methods"]
 category: "Under Review"
 weight: 1
 venue: "Revise & Resubmit — Administrative Science Quarterly"

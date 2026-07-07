@@ -2,6 +2,7 @@
 title: "Navigating Gendered Paradoxes in Technology Development"
 date: 2026-01-01
 hideMeta: true
+topics: ["Gender", "Technology", "Qualitative Methods"]
 category: "Work in Progress"
 weight: 8
 venue: "Work in Progress"
