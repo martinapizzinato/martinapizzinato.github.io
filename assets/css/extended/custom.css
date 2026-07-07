@@ -489,6 +489,21 @@ body.dark .entry-footer b { color: #ddd8d8; }
   margin: .9rem 0 0;
 }
 
+/* Work in Progress: compact, non-clickable cards (no page to link to yet) */
+.wip-entry {
+  padding: 16px 20px !important;
+}
+.wip-entry .entry-header h2 {
+  color: var(--accent-dark);
+}
+body.dark .wip-entry .entry-header h2 { color: #ddd8d8; }
+.wip-entry:hover {
+  border-color: var(--border) !important;
+}
+.wip-entry .entry-footer {
+  margin-top: .3rem;
+}
+
 /* ---------- Home / profile ---------- */
 .main .profile { justify-content: center !important; min-height: auto !important; }
 .profile .profile_inner {

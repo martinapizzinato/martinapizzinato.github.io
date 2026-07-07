@@ -24,6 +24,22 @@
 <h2 class="research-section-heading">{{ index $emojis $cat }} {{ $cat }}</h2>
     {{- $prevCategory = $cat }}
   {{- end }}
+{{- if eq $cat "Work in Progress" }}
+<article class="post-entry wip-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  <footer class="entry-footer">
+    <strong class="research-venue">{{ .Params.venue }}</strong>
+    <br>{{ .Params.authors | safeHTML }}</footer>
+  {{- if .Params.topics }}
+  <p class="research-topics">
+    {{- range .Params.topics }}<span class="nk-chip">{{ . }}</span>
+    {{- end }}
+  </p>
+  {{- end }}
+</article>
+{{- else }}
 <article class="post-entry">
   <header class="entry-header">
     <h2 class="entry-hint-parent">
@@ -54,6 +70,7 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
 {{- end }}
 </div>
 
