@@ -6,6 +6,7 @@ topics: ["Gender", "Qualitative Methods"]
 category: "Working Papers"
 weight: 4
 venueType: "Working Paper"
+venueDetail: "In preparation for submission to Academy of Management Journal"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b>, Clarissa Cortland, Colin Fisher, and Sarah Harvey"
 honor: ""
