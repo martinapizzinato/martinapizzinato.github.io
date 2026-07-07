@@ -95,6 +95,8 @@ params:
       url: "/cv.pdf"
     - name: Email
       url: "mailto:martina.pizzinato.21@ucl.ac.uk"
+    - name: Google Scholar
+      url: "https://scholar.google.com/citations?user=s55LGKsAAAAJ&hl=en"
 
   assets:
     disableHLJS: true
