@@ -274,8 +274,8 @@ html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
 .about-gallery::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
 .about-gallery img {
   flex: 0 0 auto;
-  width: 260px;
-  height: 320px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 14px;
   border: 1px solid var(--line);
@@ -287,7 +287,7 @@ html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
   box-shadow: var(--shadow);
 }
 @media (max-width: 680px) {
-  .about-gallery img { width: 190px; height: 240px; }
+  .about-gallery img { width: 150px; height: 150px; }
 }
 
 .post-content blockquote {
