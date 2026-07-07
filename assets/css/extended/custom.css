@@ -266,6 +266,21 @@ html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
   line-height: 1.7;
 }
 
+.about-para {
+  display: flex;
+  align-items: flex-start;
+  gap: .9rem;
+  margin: 1.3rem 0;
+}
+.about-emoji {
+  flex: 0 0 auto;
+  width: 1.9rem;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  text-align: center;
+}
+.about-para p { margin: 0; flex: 1; }
+
 .about-gallery {
   display: flex;
   gap: .8rem;
