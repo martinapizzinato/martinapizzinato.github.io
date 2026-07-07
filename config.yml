@@ -97,6 +97,8 @@ params:
       url: "mailto:martina.pizzinato.21@ucl.ac.uk"
     - name: Google Scholar
       url: "https://scholar.google.com/citations?user=s55LGKsAAAAJ&hl=en"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/martina-pizzinato-1516591a0/"
 
   assets:
     disableHLJS: true
