@@ -13,7 +13,7 @@ description: ""
 
 Outside of research, I'm someone who is curious about people, places, stories, and art.
 
-I grew up in a small town near Venice, Italy, but I've spent roughly half of my life living abroad. Over the years I've called South Korea, Malaysia, and the United Kingdom home, and each place has shaped the way I see the world. Living in different cultures has also given me the opportunity to learn several languages, and I enjoy switching between Italian, English, Spanish, Korean, and German in my head. I love the feeling that each language opens a slightly different way of communicating with and understanding people.
+I grew up in a small town near Venice, Italy, but I've spent roughly half of my life living abroad. Over the years I've called South Korea, Malaysia, and the United Kingdom home, and each place has shaped the way I see the world. Living in different cultures has also given me the opportunity to learn several languages, and I enjoy switching between Italian, English, Spanish, Korean, and German in my head. I love the feeling that each language opens a slightly different way of understanding people.
 
 I made my tiring, long commute to work one of best parts of my day because it's my uninterrupted reading time. I mostly read fiction and memoirs, and I usually set myself the goal of reading somewhere between 80 and 100 books each year. I don't really have a favourite author - I'm much more attached to individual books than to particular writers. Some of the books that have stayed with me in recent years are *Tomorrow, and Tomorrow, and Tomorrow*, *The Midnight Library*, *I Want to Die but I Want to Eat Tteokbokki*, and *Crying in H Mart*.
 
