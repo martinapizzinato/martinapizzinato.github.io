@@ -500,24 +500,15 @@ body.dark .entry-footer b { color: #ddd8d8; }
 }
 .profile_inner .social-icons, .profile_inner .buttons { justify-content: center !important; }
 
-.profile-mode img, .home-info img, #profile img {
-  border-radius: 50% !important;
-  box-shadow:
-    0 0 0 4px var(--paper),
-    0 0 0 6px color-mix(in srgb, var(--accent) 30%, transparent),
-    0 8px 32px color-mix(in srgb, var(--accent) 12%, transparent) !important;
-  transition: box-shadow .35s ease !important;
-  animation: nk-float 4s ease-in-out infinite;
+.profile img {
+  border-radius: 14px !important;
+  border: 1px solid var(--line);
+  box-shadow: none !important;
+  transition: transform .2s ease, box-shadow .2s ease !important;
 }
-@keyframes nk-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-}
-.profile-mode img:hover, .home-info img:hover, #profile img:hover {
-  box-shadow:
-    0 0 0 4px var(--paper),
-    0 0 0 6px color-mix(in srgb, var(--accent) 55%, transparent),
-    0 12px 40px color-mix(in srgb, var(--accent) 20%, transparent) !important;
+.profile img:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow) !important;
 }
 
 @keyframes nk-fadeInUp {
@@ -548,7 +539,7 @@ main, .profile-mode, #profile { animation: nk-fadeInUp .45s ease both; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  main, .profile-mode, #profile, .profile_inner > *, .profile-mode::after, .profile-mode img, .home-info img, #profile img {
+  main, .profile-mode, #profile, .profile_inner > *, .profile-mode::after, .profile img {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
@@ -596,7 +587,7 @@ body::after {
 /* ---------- Mobile ---------- */
 @media (max-width: 640px) {
   html, body { overflow-x: hidden !important; }
-  .profile-mode img, .home-info img, #profile img { width: 140px !important; height: 140px !important; }
+  .profile img { width: 140px !important; height: 140px !important; }
   .profile_inner h1 { font-size: 1.65rem !important; }
   body { font-size: 15px; }
   h1 { font-size: clamp(1.6rem, 6vw, 2.2rem) !important; }
