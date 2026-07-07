@@ -5,7 +5,7 @@ hideMeta: true
 topics: ["Creativity", "Innovation", "Gender"]
 category: "Working Papers"
 weight: 3
-venue: "Working Paper"
+venueType: "Working Paper"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b> and Sarah Harvey"
 honor: ""

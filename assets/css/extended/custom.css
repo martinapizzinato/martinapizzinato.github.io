@@ -482,6 +482,9 @@ body.dark .entry-footer .research-venue { color: #ddd8d8; }
 .entry-footer b { color: var(--accent-dark); }
 body.dark .entry-footer b { color: #ddd8d8; }
 
+.research-venue-detail { font-style: italic; color: var(--accent-dark); }
+body.dark .research-venue-detail { color: #ddd8d8; }
+
 .research-topics {
   display: flex;
   flex-wrap: wrap;

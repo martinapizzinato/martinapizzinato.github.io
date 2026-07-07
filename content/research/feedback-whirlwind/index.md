@@ -5,7 +5,8 @@ hideMeta: true
 topics: ["Creativity", "Innovation", "Qualitative Methods"]
 category: "Under Review"
 weight: 2
-venue: "Revise & Resubmit — Organization Science"
+venueType: "Revise & Resubmit"
+venueDetail: "Organization Science"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b> and Pier Vittorio Mannucci"
 honor: ""

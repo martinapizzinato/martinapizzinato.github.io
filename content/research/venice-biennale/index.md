@@ -5,7 +5,8 @@ hideMeta: true
 topics: ["Creativity", "Innovation", "Qualitative Methods"]
 category: "Work in Progress"
 weight: 7
-venue: "Work in Progress"
+venueType: "Work in Progress"
+venueDetail: "Data collection complete and analysis in progress"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b>"
 honor: ""

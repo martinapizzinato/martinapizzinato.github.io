@@ -30,7 +30,8 @@
     <h2 class="entry-hint-parent">{{ .Title }}</h2>
   </header>
   <footer class="entry-footer">
-    <strong class="research-venue">{{ .Params.venue }}</strong>
+    <strong class="research-venue">{{ .Params.venueType }}</strong>
+    {{- if .Params.venueDetail }} <em class="research-venue-detail">- {{ .Params.venueDetail }}</em>{{- end }}
     <br>{{ .Params.authors | safeHTML }}</footer>
   {{- if .Params.topics }}
   <p class="research-topics">
@@ -56,11 +57,12 @@
   <footer class="entry-footer">
     {{- if .Params.venueURL }}
     <a href="{{ .Params.venueURL }}" rel="noopener noreferrer" target="_blank">
-      <strong class="research-venue">{{ .Params.venue }}</strong>
+      <strong class="research-venue">{{ .Params.venueType }}</strong>
     </a>
     {{- else }}
-    <strong class="research-venue">{{ .Params.venue }}</strong>
+    <strong class="research-venue">{{ .Params.venueType }}</strong>
     {{- end }}
+    {{- if .Params.venueDetail }} <em class="research-venue-detail">- {{ .Params.venueDetail }}</em>{{- end }}
     <br>{{ .Params.authors | safeHTML }}</footer>
   {{- if .Params.topics }}
   <p class="research-topics">

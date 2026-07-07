@@ -5,7 +5,8 @@ hideMeta: true
 topics: ["Creativity", "Innovation"]
 category: "Book Chapters"
 weight: 9
-venue: "Book Chapter — The Research Handbook on Workplace Creativity (Eds. J. Goncalo & V. Krause), Edward Elgar Publishing"
+venueType: "Book Chapter"
+venueDetail: "The Research Handbook on Workplace Creativity (Eds. J. Goncalo & V. Krause), Edward Elgar Publishing"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b> and Colin Fisher"
 honor: ""

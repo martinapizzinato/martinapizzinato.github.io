@@ -5,7 +5,7 @@ hideMeta: true
 topics: ["Gender", "Qualitative Methods"]
 category: "Working Papers"
 weight: 4
-venue: "Working Paper"
+venueType: "Working Paper"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b>, Clarissa Cortland, Colin Fisher, and Sarah Harvey"
 honor: ""

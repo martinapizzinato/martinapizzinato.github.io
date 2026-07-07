@@ -5,7 +5,8 @@ hideMeta: true
 topics: ["Creativity", "Innovation", "Gender", "Qualitative Methods"]
 category: "Under Review"
 weight: 1
-venue: "Revise & Resubmit — Administrative Science Quarterly"
+venueType: "Revise & Resubmit"
+venueDetail: "Administrative Science Quarterly"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b>"
 honor: "Track Nominee, Best Student Paper, EGOS (2025) &middot; Best Paper Proceedings, AOM (2026) &middot; Nominee, Best Student-Led Paper, MOC Division, AOM (2026)"
