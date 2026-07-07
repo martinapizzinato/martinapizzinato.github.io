@@ -69,11 +69,12 @@ params:
         </div>
       </div>
       <p>
-      Hello! I'm Martina, an MRes/Ph.D. student in Management (Organizations and Innovation) at the UCL School of Management,
-      supervised by Sarah Harvey and Colin Fisher.
+      Ciao! I am a Ph.D. Candidate in the Organizations and Innovation Group at the UCL School of Management, where I am supervised by
+      <a href="https://www.mgmt.ucl.ac.uk/people/sarahharvey" class="person-link" target="_blank" rel="noopener noreferrer">Sarah Harvey</a> and
+      <a href="https://www.mgmt.ucl.ac.uk/people/colinfisher" class="person-link" target="_blank" rel="noopener noreferrer">Colin Fisher</a>.
       </p>
       <p style="margin-top:.6rem">
-      Before my Ph.D., I worked as a Global Business Development Manager at Ecube Labs in Seoul, South Korea (2019–2021).
+      My research explores how people navigate novelty in the workplace, with a particular focus on how creative and marginalized workers experience and respond to the ambiguity and uncertainty that accompany novelty at work. I develop theory using a range of qualitative methods, including interviews, participant observation, and shadowing. Across my research, I have studied women in live comedy, stand-up comedians, migrant women of color, illustrators, museum curators, and AI developers.
       </p>
       <p style="margin-top:1.1rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.45rem;align-items:center">
         <span class="nk-chip">Creativity</span>
@@ -82,6 +83,7 @@ params:
         <span class="nk-chip">Technology</span>
         <span class="nk-chip">Qualitative Methods</span>
       </p>
+    imageUrl: "/images/me.jpg"
     imageWidth: 180
     imageHeight: 180
     buttons:

@@ -197,6 +197,14 @@ body.dark .post-content a:not(.button):not(:has(svg)) { background-image: var(--
 body.dark .profile_inner span p a:hover, body.dark .profile_inner span a:hover,
 body.dark .post-content a:not(.button):not(:has(svg)):hover { color: #ddd8d8; }
 
+/* Named-person links in the bio: always bright purple, not just on hover */
+.profile_inner .person-link,
+.profile_inner .person-link:hover,
+body.dark .profile_inner .person-link,
+body.dark .profile_inner .person-link:hover {
+  color: var(--accent);
+}
+
 /* Icon/SVG links: magnify on hover */
 .social-icons a { border-radius: 50%; padding: 5px; transition: transform .25s ease, box-shadow .25s ease, background .25s ease !important; }
 .social-icons a svg { width: 22px; height: 22px; }
