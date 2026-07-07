@@ -4,7 +4,14 @@
   </h1>
 </header>
 
+{{- $emojis := dict "Under Review" "🔍" "Working Papers" "📝" "Work in Progress" "🚧" "Book Chapters" "📚" }}
+{{- $prevCategory := "" }}
 {{- range .Pages.ByWeight }}
+  {{- $cat := .Params.category }}
+  {{- if ne $cat $prevCategory }}
+<h2 class="research-section-heading">{{ index $emojis $cat }} {{ $cat }}</h2>
+  {{- $prevCategory = $cat }}
+  {{- end }}
 <article class="post-entry">
   <header class="entry-header">
     <h2 class="entry-hint-parent">
@@ -28,7 +35,7 @@
     {{- else }}
     <b>{{ .Params.venue }}</b>
     {{- end }}
-    &nbsp;&middot;&nbsp;<span>{{ .Params.displayDate }}</span><br>{{ .Params.authors }}</footer>
+    <br>{{ .Params.authors }}</footer>
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}

@@ -1,12 +1,12 @@
 /* =========================================================
    Editorial theme layer
-   Fonts: Inter (UI) + Source Serif 4 (bio) + JetBrains Mono (code)
-   Accent: UCL purple
+   Fonts: system UI stack (matches stanford.edu/~kostasb)
+   Accent: UCL Bright Purple (official brand palette)
    ========================================================= */
 
 /* ---------- Design tokens ---------- */
 :root {
-  --accent: #14274e;
+  --accent: #993bff;
   --ink: rgba(17, 24, 39, .92);
   --muted: rgba(17, 24, 39, .62);
   --line: rgba(17, 24, 39, .12);
@@ -22,9 +22,9 @@
       color-mix(in srgb, var(--accent) 75%, transparent),
       color-mix(in srgb, var(--accent) 20%, transparent));
 
-  --font-heading: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 body.dark {
@@ -97,7 +97,6 @@ body.dark .profile_inner h1 { color: #ddd8d8; }
 .home-info p,
 .profile_inner .subtitle,
 .profile_inner .subtitle p {
-  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: 1.07rem;
   line-height: 1.82;
 }
@@ -138,44 +137,34 @@ body.dark ::selection { background: color-mix(in srgb, #ddd8d8 22%, transparent)
 .logo a:hover, .header .logo a:hover { color: var(--accent) !important; }
 body.dark .logo a:hover, body.dark .header .logo a:hover { color: #ddd8d8 !important; }
 
-/* Nav links: underline via background-image, no layout shift */
+/* Nav links: plain text, underline only on the active tab (no pill/fill/shadow) */
 #menu a::before, #menu a::after { display: none !important; content: none !important; }
 #menu a {
   position: relative;
-  font-size: .78rem !important;
-  font-weight: 600 !important;
-  letter-spacing: .055em !important;
-  text-transform: uppercase !important;
-  color: var(--muted) !important;
-  padding: .38rem .7rem !important;
-  border-radius: 999px !important;
-  text-decoration: none !important;
-  background-image: linear-gradient(var(--accent), var(--accent)) !important;
-  background-size: 0% 2px !important;
-  background-position: 0 100% !important;
-  background-repeat: no-repeat !important;
-  transition: background-size .26s ease, color .2s ease, background-color .18s ease !important;
-}
-body.dark #menu a { background-image: linear-gradient(#ddd8d8, #ddd8d8) !important; }
-#menu a:hover {
+  font-size: .85rem !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
   color: var(--ink) !important;
-  background-size: 100% 2px !important;
-  background-color: color-mix(in srgb, var(--accent) 10%, transparent) !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  text-decoration: none !important;
+  transition: color .18s ease !important;
 }
-body.dark #menu a:hover {
-  color: rgba(255, 255, 255, .92) !important;
-  background-color: color-mix(in srgb, #ddd8d8 10%, transparent) !important;
-}
+#menu a:hover { color: var(--accent) !important; }
+body.dark #menu a:hover { color: #ddd8d8 !important; }
 #menu a span.active {
-  color: var(--accent);
-  font-weight: 800;
-  background-color: color-mix(in srgb, var(--accent) 12%, transparent);
-  border-radius: 999px;
-  padding: .15rem .25rem;
+  color: var(--ink);
+  font-weight: 400;
+  border-bottom: 2px solid var(--accent);
+  background: none;
+  border-radius: 0;
+  padding: 0;
 }
 body.dark #menu a span.active {
-  color: #ddd8d8;
-  background-color: color-mix(in srgb, #ddd8d8 12%, transparent);
+  color: rgba(255, 255, 255, .92);
+  border-bottom-color: #ddd8d8;
 }
 
 /* ---------- Links ---------- */
@@ -216,12 +205,10 @@ body.dark .post-content a:not(.button):not(:has(svg)):hover { color: #ddd8d8; }
 .social-icons a:hover {
   transform: scale(1.18) !important;
   background: color-mix(in srgb, var(--accent) 10%, transparent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
   color: var(--accent);
 }
 body.dark .social-icons a:hover {
   background: color-mix(in srgb, #ddd8d8 10%, transparent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, #ddd8d8 10%, transparent);
   color: #ddd8d8;
 }
 
@@ -398,6 +385,13 @@ body.dark .post-content h2::before { background: color-mix(in srgb, #ddd8d8 60%,
 @media (max-width: 680px) {
   .post-content p, .profile .profile_inner p, .home-info p { text-align: left; hyphens: none; }
 }
+
+/* ---------- Research page section headings ---------- */
+.research-section-heading {
+  margin: 2.75rem 0 1.1rem;
+  font-size: 1.3rem;
+}
+.research-section-heading:first-of-type { margin-top: 0; }
 
 /* ---------- Home / profile ---------- */
 .main .profile { justify-content: center !important; min-height: auto !important; }
