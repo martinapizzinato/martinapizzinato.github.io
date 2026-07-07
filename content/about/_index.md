@@ -14,3 +14,11 @@ When I'm not reading, you'll probably find me wandering through an art gallery. 
 I also have a somewhat niche hobby: keeping an unofficial ranking of the best pain au chocolat in London. It's a list that is constantly evolving, although Pophams has managed to hold onto the top spot for quite some time. I'm always happy to accept recommendations that might challenge its position.
 
 Above all, I enjoy collecting experiences more than possessions: discovering new cities, learning new words and languages, finding a memorable book, stumbling across a painting that makes me stop worrying about life, or sharing good food with friends. Those are the moments that make me feel most at home, wherever I happen to be.
+
+<div class="about-gallery">
+  <img src="/images/about/bookshop.jpg" alt="Browsing the shelves at Daunt Books" loading="lazy">
+  <img src="/images/about/venice-dog.jpg" alt="A shiba inu in Piazza San Marco, Venice" loading="lazy">
+  <img src="/images/about/london-sunset.jpg" alt="Sunset over the Thames and the London skyline" loading="lazy">
+  <img src="/images/about/pophams.jpg" alt="Pastries at Pophams bakery" loading="lazy">
+  <img src="/images/about/seoul.jpg" alt="Looking out over the Seoul skyline at dusk" loading="lazy">
+</div>

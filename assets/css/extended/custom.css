@@ -258,6 +258,29 @@ html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
   line-height: 1.7;
 }
 
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .8rem;
+  margin-top: 1.6rem;
+}
+.about-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.about-gallery img:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+@media (max-width: 680px) {
+  .about-gallery { grid-template-columns: repeat(2, 1fr); }
+  .about-gallery img { height: 160px; }
+}
+
 .post-content blockquote {
   position: relative;
   overflow: hidden;
