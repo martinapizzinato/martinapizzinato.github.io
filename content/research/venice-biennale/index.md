@@ -6,7 +6,7 @@ topics: ["Creativity", "Innovation", "Qualitative Methods"]
 category: "Work in Progress"
 weight: 7
 venueType: "Work in Progress"
-venueDetail: "Data collection complete and analysis in progress"
+venueDetail: "First round of data collection and analysis in progress"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b>"
 honor: ""
