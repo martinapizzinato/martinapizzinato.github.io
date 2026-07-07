@@ -4,3 +4,6 @@
 
 # Local Hugo binary (see LOCAL_PREVIEW.md)
 /bin/
+
+# Local Claude Code tooling config
+.claude/

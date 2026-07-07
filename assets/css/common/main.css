@@ -70,3 +70,7 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
