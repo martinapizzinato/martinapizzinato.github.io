@@ -28,10 +28,10 @@
   <footer class="entry-footer">
     {{- if .Params.venueURL }}
     <a href="{{ .Params.venueURL }}" rel="noopener noreferrer" target="_blank">
-      <b>{{ .Params.venue }}</b>
+      <strong class="research-venue">{{ .Params.venue }}</strong>
     </a>
     {{- else }}
-    <b>{{ .Params.venue }}</b>
+    <strong class="research-venue">{{ .Params.venue }}</strong>
     {{- end }}
     <br>{{ .Params.authors | safeHTML }}</footer>
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>

@@ -205,11 +205,9 @@ body.dark .post-content a:not(.button):not(:has(svg)):hover { color: #ddd8d8; }
 .social-icons a svg[fill="currentColor"] { transform: scale(.84); }
 .social-icons a:hover {
   transform: scale(1.18) !important;
-  background: color-mix(in srgb, var(--accent) 10%, transparent);
   color: var(--accent);
 }
 body.dark .social-icons a:hover {
-  background: color-mix(in srgb, #ddd8d8 10%, transparent);
   color: #ddd8d8;
 }
 
@@ -387,12 +385,25 @@ body.dark .post-content h2::before { background: color-mix(in srgb, #ddd8d8 60%,
   .post-content p, .profile .profile_inner p, .home-info p { text-align: left; hyphens: none; }
 }
 
-/* ---------- Research page section headings ---------- */
+/* ---------- Research page ---------- */
 .research-section-heading {
   margin: 2.75rem 0 1.1rem;
   font-size: 1.3rem;
+  color: var(--accent-dark);
 }
 .research-section-heading:first-of-type { margin-top: 0; }
+body.dark .research-section-heading { color: #ddd8d8; }
+
+.entry-hint-parent a { color: var(--accent-dark); }
+body.dark .entry-hint-parent a { color: #ddd8d8; }
+
+.research-honor { font-size: .82rem; }
+
+.entry-footer .research-venue { color: var(--accent); }
+body.dark .entry-footer .research-venue { color: #ddd8d8; }
+
+.entry-footer b { color: var(--accent-dark); }
+body.dark .entry-footer b { color: #ddd8d8; }
 
 /* ---------- Home / profile ---------- */
 .main .profile { justify-content: center !important; min-height: auto !important; }
@@ -608,6 +619,12 @@ body.dark .nk-now {
 .nk-aff-horg { font-size: .8rem; font-weight: 700; color: var(--ink); line-height: 1.3; }
 .nk-aff-hrole { font-size: .72rem; color: var(--muted); margin-top: .15rem; line-height: 1.3; }
 
+/* Keep the "Now" badge glued to the org name on one line, whatever the column width */
+.nk-aff-hitem--current .nk-aff-horg { white-space: nowrap; }
+@media (max-width: 480px) {
+  .nk-aff-hitem--current .nk-aff-horg { white-space: normal; }
+}
+
 /* Research keyword chips */
 .nk-chip {
   display: inline-flex;
@@ -625,6 +642,7 @@ body.dark .nk-now {
 }
 .nk-chip:hover {
   transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 20%, transparent);
   background: color-mix(in srgb, var(--accent) 14%, transparent);
 }
 body.dark .nk-chip {
@@ -633,6 +651,7 @@ body.dark .nk-chip {
   color: #ddd8d8;
 }
 body.dark .nk-chip:hover {
+  box-shadow: 0 4px 14px color-mix(in srgb, #ddd8d8 14%, transparent);
   background: color-mix(in srgb, #ddd8d8 16%, transparent);
 }
 
