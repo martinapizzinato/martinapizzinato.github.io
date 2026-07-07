@@ -259,17 +259,27 @@ html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
 }
 
 .about-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: .8rem;
-  margin-top: 1.6rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 0 2rem;
+  padding-bottom: .6rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
 }
+.about-gallery::-webkit-scrollbar { height: 6px; }
+.about-gallery::-webkit-scrollbar-track { background: transparent; }
+.about-gallery::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
 .about-gallery img {
-  width: 100%;
-  height: 220px;
+  flex: 0 0 auto;
+  width: 260px;
+  height: 320px;
   object-fit: cover;
   border-radius: 14px;
   border: 1px solid var(--line);
+  scroll-snap-align: start;
   transition: transform .2s ease, box-shadow .2s ease;
 }
 .about-gallery img:hover {
@@ -277,8 +287,7 @@ html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
   box-shadow: var(--shadow);
 }
 @media (max-width: 680px) {
-  .about-gallery { grid-template-columns: repeat(2, 1fr); }
-  .about-gallery img { height: 160px; }
+  .about-gallery img { width: 190px; height: 240px; }
 }
 
 .post-content blockquote {
