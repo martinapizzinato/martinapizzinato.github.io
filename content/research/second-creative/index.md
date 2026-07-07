@@ -6,6 +6,7 @@ topics: ["Creativity", "Innovation", "Gender"]
 category: "Working Papers"
 weight: 3
 venueType: "Working Paper"
+venueDetail: "In preparation for submission to Academy of Management Review"
 venueURL: ""
 authors: "<b>Martina Pizzinato</b> and Sarah Harvey"
 honor: ""
