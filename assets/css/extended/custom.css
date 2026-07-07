@@ -252,6 +252,12 @@ body.dark .button:hover, body.dark .btn:hover, body.dark .home-info .button:hove
 /* ---------- Content polish ---------- */
 .post-content { line-height: 1.75; font-size: 1.06rem; }
 
+/* About page: slightly smaller body text */
+html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
+  font-size: .93rem;
+  line-height: 1.7;
+}
+
 .post-content blockquote {
   position: relative;
   overflow: hidden;
