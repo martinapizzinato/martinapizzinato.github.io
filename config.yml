@@ -53,18 +53,31 @@ params:
   profileMode:
     enabled: true
     title: Martina Pizzinato
-    subtitle: "Hello! I'm Martina, an MRes/Ph.D. student in Management (Organizations and Innovation) at the UCL School of Management, supervised by
-     Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods.
-
-     <br><br>
-     Before my Ph.D., I completed an M.A. in International Commerce at Korea University (2017–2019) and a B.A. in Economics and Business at
-     Ca' Foscari University of Venice (2014–2017). Between degrees, I worked as a Global Business Development Manager at Ecube Labs in Seoul,
-     South Korea (2019–2021).
-
-     <br><br>
-
-     Thank you for visiting my webpage!
-     "
+    subtitle: |
+      <div class="nk-aff-htl">
+        <div class="nk-aff-hitem nk-aff-hitem--primary">
+          <div class="nk-aff-horg">UCL School of Management</div>
+          <div class="nk-aff-hrole">MRes/Ph.D. &middot; Organizations &amp; Innovation</div>
+        </div>
+        <div class="nk-aff-hitem">
+          <div class="nk-aff-horg">Korea University</div>
+          <div class="nk-aff-hrole">M.A. &middot; International Commerce</div>
+        </div>
+        <div class="nk-aff-hitem">
+          <div class="nk-aff-horg">Ca' Foscari University of Venice</div>
+          <div class="nk-aff-hrole">B.A. &middot; Economics &amp; Business</div>
+        </div>
+      </div>
+      <p>
+      Hello! I'm Martina, an MRes/Ph.D. student in Management (Organizations and Innovation) at the UCL School of Management,
+      supervised by Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods.
+      </p>
+      <p style="margin-top:.6rem">
+      Before my Ph.D., I worked as a Global Business Development Manager at Ecube Labs in Seoul, South Korea (2019–2021).
+      </p>
+      <p style="margin-top:.6rem">
+      Thank you for visiting my webpage!
+      </p>
     imageWidth: 180
     imageHeight: 180
     buttons:
