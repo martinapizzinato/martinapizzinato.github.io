@@ -1,0 +1,111 @@
+baseURL: "https://martinapizzinato.github.io/"
+title: Martina Pizzinato
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Working Papers
+      url: /projects/
+      weight: 1
+    - name: Publications
+      url: /papers/
+      weight: 2
+    - name: Teaching
+      url: /courses/
+      weight: 3
+    - name: News
+      url: /news/
+      weight: 4
+    # - name: Archive
+    #   url: /archive/
+    #   weight: 5
+
+params:
+  description: "I'm a Ph.D. candidate in Management (Organizations and Innovation) at the UCL School of Management, supervised by Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods."
+  author: Martina Pizzinato
+  # googleAnalyticsID: ""
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: Martina Pizzinato
+    subtitle: "Hello! I'm Martina, an MRes/Ph.D. student in Management (Organizations and Innovation) at the UCL School of Management, supervised by
+     Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods.
+
+     <br><br>
+     Before my Ph.D., I completed an M.A. in International Commerce at Korea University (2017–2019) and a B.A. in Economics and Business at
+     Ca' Foscari University of Venice (2014–2017). Between degrees, I worked as a Global Business Development Manager at Ecube Labs in Seoul,
+     South Korea (2019–2021).
+
+     <br><br>
+
+     Thank you for visiting my webpage!
+     "
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: Working Papers
+        url: /projects/
+      - name: Publications
+        url: /papers/
+      - name: Teaching
+        url: /courses/
+      - name: News
+        url: /news/
+
+  socialIcons:
+    - name: CV
+      url: "/cv.pdf"
+    - name: Email
+      url: "mailto:martina.pizzinato.21@ucl.ac.uk"
+
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: true
+    hiddenInSingle: true
+  label:
+    text: "Martina Pizzinato"
+    icon: /favicon.ico
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: xcode
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
+# max number of characters:
+# * title: 70
+# * description: 120–155
+# * summary: 265
