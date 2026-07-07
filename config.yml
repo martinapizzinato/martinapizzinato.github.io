@@ -55,17 +55,17 @@ params:
     title: Martina Pizzinato
     subtitle: |
       <div class="nk-aff-htl">
-        <div class="nk-aff-hitem nk-aff-hitem--primary">
-          <div class="nk-aff-horg">UCL School of Management</div>
-          <div class="nk-aff-hrole">MRes/Ph.D. &middot; Organizations &amp; Innovation</div>
+        <div class="nk-aff-hitem">
+          <div class="nk-aff-horg">Ca' Foscari University of Venice</div>
+          <div class="nk-aff-hrole">B.A. &middot; Economics &amp; Business</div>
         </div>
         <div class="nk-aff-hitem">
           <div class="nk-aff-horg">Korea University</div>
           <div class="nk-aff-hrole">M.A. &middot; International Commerce</div>
         </div>
-        <div class="nk-aff-hitem">
-          <div class="nk-aff-horg">Ca' Foscari University of Venice</div>
-          <div class="nk-aff-hrole">B.A. &middot; Economics &amp; Business</div>
+        <div class="nk-aff-hitem nk-aff-hitem--primary">
+          <div class="nk-aff-horg">UCL School of Management</div>
+          <div class="nk-aff-hrole">MRes/Ph.D. &middot; Organizations &amp; Innovation</div>
         </div>
       </div>
       <p>
