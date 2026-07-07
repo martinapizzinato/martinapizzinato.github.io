@@ -14,6 +14,9 @@ menu:
     - name: Research
       url: /research/
       weight: 1
+    - name: About
+      url: /about/
+      weight: 2
     # - name: Teaching
     #   url: /courses/
     #   weight: 2
@@ -84,6 +87,8 @@ params:
     buttons:
       - name: Research
         url: /research/
+      - name: About
+        url: /about/
 
   socialIcons:
     - name: CV
