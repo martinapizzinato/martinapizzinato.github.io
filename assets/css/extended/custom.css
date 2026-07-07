@@ -501,14 +501,7 @@ body.dark .entry-footer b { color: #ddd8d8; }
 .profile_inner .social-icons, .profile_inner .buttons { justify-content: center !important; }
 
 .profile img {
-  border-radius: 14px !important;
-  border: 1px solid var(--line);
-  box-shadow: none !important;
-  transition: transform .2s ease, box-shadow .2s ease !important;
-}
-.profile img:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow) !important;
+  border-radius: 50% !important;
 }
 
 @keyframes nk-fadeInUp {
