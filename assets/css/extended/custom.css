@@ -638,6 +638,16 @@ body::after {
   .button, .btn, .home-info .button { font-size: .78rem !important; padding: .3rem .62rem !important; }
   #menu { flex-wrap: wrap !important; justify-content: center !important; gap: .2rem !important; }
   #menu a { font-size: .7rem !important; padding: .3rem .55rem !important; }
+  .profile_inner .buttons {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: .55rem !important;
+    width: 100%;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile_inner .buttons .button { text-align: center; }
   .top-link { right: .8rem !important; bottom: 1rem !important; width: 36px !important; height: 36px !important; }
 }
 
