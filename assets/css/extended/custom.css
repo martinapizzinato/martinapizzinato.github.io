@@ -639,12 +639,16 @@ body::after {
   #menu { flex-wrap: wrap !important; justify-content: center !important; gap: .2rem !important; }
   #menu a { font-size: .7rem !important; padding: .3rem .55rem !important; }
   .profile_inner .buttons {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: .55rem !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    gap: .32rem !important;
   }
-  .profile_inner .buttons .button { width: auto; }
-  .profile_inner .buttons .button { text-align: center; }
+  .profile_inner .buttons .button {
+    width: auto;
+    font-size: .66rem !important;
+    padding: .3rem .5rem !important;
+    white-space: nowrap;
+  }
   .top-link { right: .8rem !important; bottom: 1rem !important; width: 36px !important; height: 36px !important; }
 }
 
