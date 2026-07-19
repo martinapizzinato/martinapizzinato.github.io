@@ -261,9 +261,25 @@ body.dark .button:hover, body.dark .btn:hover, body.dark .home-info .button:hove
 .post-content { line-height: 1.75; font-size: 1.06rem; }
 
 /* About page: slightly smaller body text */
-html:has(head link[rel="canonical"][href$="/about/"]) .post-content {
+html:has(head link[rel="canonical"][href$="/about/"]) .post-content,
+html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content {
   font-size: .93rem;
   line-height: 1.7;
+}
+
+/* Methods & Resources page: no bullet dot before section headings,
+   and hyperlinks always shown in the accent purple */
+html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content h2::before {
+  content: none;
+}
+html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content h2 {
+  padding-left: 0;
+}
+html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content a:not(.button):not(:has(svg)) {
+  color: var(--accent);
+}
+body.dark html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content a:not(.button):not(:has(svg)) {
+  color: #ddd8d8;
 }
 
 .about-para {
