@@ -278,8 +278,6 @@ html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content 
 html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content a:not(.button):not(:has(svg)) {
   color: var(--accent);
   box-shadow: none;
-  background-image: none;
-  padding-bottom: 0;
 }
 body.dark html:has(head link[rel="canonical"][href$="/methods-resources/"]) .post-content a:not(.button):not(:has(svg)) {
   color: #ddd8d8;
