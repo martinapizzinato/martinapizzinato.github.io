@@ -20,7 +20,7 @@ Outside of research, I'm someone who is curious about people, places, stories, a
 
 <div class="about-para">
   <span class="about-emoji">📚</span>
-  <p>I made my tiring, long commute to work one of best parts of my day because it's my uninterrupted reading time. I mostly read fiction and memoirs, and I usually set myself the goal of reading somewhere between 80 and 100 books each year. I don't really have a favourite author - I'm much more attached to individual books than to particular writers. Some of the books that have stayed with me in recent years are <em>Tomorrow, and Tomorrow, and Tomorrow</em>, <em>The Midnight Library</em>, <em>I Want to Die but I Want to Eat Tteokbokki</em>, and <em>Crying in H Mart</em>.</p>
+  <p>I made my commute to work one of best parts of my day because it's my uninterrupted reading time. I mostly read fiction and memoirs, and I usually set myself the goal of reading somewhere between 80 and 100 books each year. I don't really have a favourite author - I'm much more attached to individual books than to particular writers. Some of the books that have stayed with me in recent years are <em>Tomorrow, and Tomorrow, and Tomorrow</em>, <em>The Midnight Library</em>, <em>I Want to Die but I Want to Eat Tteokbokki</em>, and <em>Crying in H Mart</em>.</p>
 </div>
 
 <div class="about-para">
