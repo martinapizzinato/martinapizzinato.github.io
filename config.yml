@@ -14,9 +14,12 @@ menu:
     - name: Research
       url: /research/
       weight: 1
+    - name: Methods & Resources
+      url: /methods-resources/
+      weight: 2
     - name: About
       url: /about/
-      weight: 2
+      weight: 3
     # - name: Teaching
     #   url: /courses/
     #   weight: 2
@@ -89,6 +92,8 @@ params:
     buttons:
       - name: Research
         url: /research/
+      - name: Methods & Resources
+        url: /methods-resources/
       - name: About
         url: /about/
 
