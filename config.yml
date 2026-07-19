@@ -33,7 +33,7 @@ menu:
 params:
   description: "I'm a Ph.D. candidate in Management (Organizations and Innovation) at the UCL School of Management, supervised by Sarah Harvey and Colin Fisher. My research interests are creativity, innovation, gender, technology, and qualitative methods."
   author: Martina Pizzinato
-  # googleAnalyticsID: ""
+  googleAnalyticsID: "G-EMQYVEYKLF"
   DateFormat: "January 2006"
   defaultTheme: light
   hideFooter: true
