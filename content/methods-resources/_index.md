@@ -8,9 +8,13 @@ Throughout my research, I draw on a range of qualitative methods that help me st
 Across my research, I have studied women in live comedy, stand-up comedians, migrant women of color, illustrators, museum curators, and AI developers. This work has taken me to fascinating places, including museum archives, tech events, and the green rooms of comedy venues.
 
 <div class="about-gallery">
+  <img src="/images/methods-resources/archive-boxes.jpg" alt="Archive boxes on a cart in a research reading room" loading="lazy">
   <img src="/images/methods-resources/comedy-stage.jpg" alt="A stand-up comedian performing on stage at a comedy festival venue" loading="lazy">
-  <img src="/images/methods-resources/comedy-club.jpg" alt="A comedy club stage set up ahead of a show" loading="lazy">
+  <img src="/images/methods-resources/biennale-yearbook.jpg" alt="A 1976 Biennale annual yearbook found in the archives" loading="lazy">
   <img src="/images/methods-resources/illustration-exhibit.jpg" alt="Illustrations on display at an exhibition" loading="lazy">
+  <img src="/images/methods-resources/archive-documents.jpg" alt="Archival correspondence and documents from a research collection" loading="lazy">
+  <img src="/images/methods-resources/comedy-club.jpg" alt="A comedy club stage set up ahead of a show" loading="lazy">
+  <img src="/images/methods-resources/biennale-posters.jpg" alt="Exhibition posters and publications on display in an archive" loading="lazy">
   <img src="/images/methods-resources/festival-poster.jpg" alt="A festival poster pinned to a noticeboard" loading="lazy">
 </div>
 
