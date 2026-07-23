@@ -15,7 +15,7 @@ Outside of research, I'm someone who is curious about people, places, stories, a
 
 <div class="about-para">
   <span class="about-emoji">🌍</span>
-  <p>I grew up in a small town near Venice, Italy, but I've spent roughly half of my life living abroad. Over the years I've called South Korea, Malaysia, and the United Kingdom home, and each place has shaped the way I see the world. Living in different cultures has also given me the opportunity to learn several languages, and I enjoy switching between Italian, English, Spanish, Korean, and German in my head. I love the feeling that each language opens a slightly different way of understanding people.</p>
+  <p>I grew up in a small town near Venice, Italy, but I've spent roughly half of my life living abroad. Over the years I've called South Korea, Malaysia, and the United Kingdom home, and each place has shaped the way I see the world. Living in different cultures has also given me the opportunity to learn several languages, and I enjoy switching between Italian, English, Spanish, Korean, and German in my head. </p>
 </div>
 
 <div class="about-para">
@@ -25,10 +25,10 @@ Outside of research, I'm someone who is curious about people, places, stories, a
 
 <div class="about-para">
   <span class="about-emoji">🎨</span>
-  <p>When I'm not reading, you'll probably find me wandering through an art gallery. I enjoy art in almost every form, but painting has always been the one that draws me in the most. If I had to choose a few artists whose work I always return to, they would be Edgar Degas, Canaletto, and Frida Kahlo. I find myself fascinated by the stories that paintings can tell without a single word.</p>
+  <p>When I'm not reading, you'll probably find me wandering through an art gallery. I enjoy art in almost every form, but painting has always been the one that draws me in the most. If I had to choose a few artists whose work I always return to, they would be Edgar Degas, Canaletto, and Frida Kahlo. </p>
 </div>
 
 <div class="about-para">
   <span class="about-emoji">🥐</span>
-  <p>I also have a somewhat niche hobby: keeping an unofficial ranking of the best pain au chocolat in London. It's a list that is constantly evolving, although Pophams has managed to hold onto the top spot for quite some time. I'm always happy to accept recommendations that might challenge its position.</p>
+  <p>I also have a somewhat niche hobby: keeping an unofficial ranking of the best pain au chocolat in London. It's a list that is constantly evolving, although Pophams has managed to hold onto the top spot for quite some time.</p>
 </div>
