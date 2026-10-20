@@ -66,13 +66,17 @@ params:
           <div class="nk-aff-horg">🇰🇷 Korea University</div>
           <div class="nk-aff-hrole">M.A. &middot; International Commerce</div>
         </div>
-        <div class="nk-aff-hitem nk-aff-hitem--current">
-          <div class="nk-aff-horg">🇬🇧 UCL School of Management&nbsp;<span class="nk-now">Now</span></div>
+        <div class="nk-aff-hitem">
+          <div class="nk-aff-horg">🇬🇧 UCL School of Management</div>
           <div class="nk-aff-hrole">Ph.D. &middot; Management</div>
+        </div>
+        <div class="nk-aff-hitem nk-aff-hitem--current">
+          <div class="nk-aff-horg">🇩🇪 Frankfurt School of Finance &amp; Management<span class="nk-now">Now</span></div>
+          <div class="nk-aff-hrole">Assistant Professor of Organizational Behavior</div>
         </div>
       </div>
       <p>
-      I am a Ph.D. Candidate in the Organizations and Innovation Group at the UCL School of Management, where I am supervised by
+      I am an Assistant Professor of Organizational Behavior at Frankfurt School of Finance &amp; Management. I received my Ph.D. in Management from the UCL School of Management, where I was fortunate to be advised by
       <a href="https://www.mgmt.ucl.ac.uk/people/sarahharvey" class="person-link" target="_blank" rel="noopener noreferrer">Sarah Harvey</a> and
       <a href="https://www.mgmt.ucl.ac.uk/people/colinfisher" class="person-link" target="_blank" rel="noopener noreferrer">Colin Fisher</a>.
       </p>

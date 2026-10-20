@@ -1,13 +1,14 @@
 /* =========================================================
    Editorial theme layer
    Fonts: system UI stack (matches stanford.edu/~kostasb)
-   Accent: UCL Bright Purple (official brand palette)
+   Accent: Frankfurt School vivid blue (#002eff, --bs-primary on
+   frankfurt-school.de) with their dark blue (#002d49) for headings
    ========================================================= */
 
 /* ---------- Design tokens ---------- */
 :root {
-  --accent: #993bff;
-  --accent-dark: #361a54;
+  --accent: #002eff;
+  --accent-dark: #002d49;
   --ink: rgba(17, 24, 39, .92);
   --muted: rgba(17, 24, 39, .62);
   --line: rgba(17, 24, 39, .12);
@@ -655,7 +656,7 @@ body::after {
 /* ---------- Education timeline (profile bio) ---------- */
 .nk-aff-htl {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   position: relative;
   margin-bottom: 1.3rem;
 }
@@ -663,8 +664,8 @@ body::after {
   content: "";
   position: absolute;
   top: .3rem;
-  left: calc(100% / 6);
-  right: calc(100% / 6);
+  left: calc(100% / 8);
+  right: calc(100% / 8);
   height: 2px;
   border-radius: 2px;
   background: color-mix(in srgb, var(--accent) 22%, transparent);
@@ -748,10 +749,12 @@ body.dark .nk-now {
 .nk-aff-horg { font-size: .8rem; font-weight: 700; color: var(--ink); line-height: 1.3; }
 .nk-aff-hrole { font-size: .72rem; color: var(--muted); margin-top: .15rem; line-height: 1.3; }
 
-/* Keep the "Now" badge glued to the org name on one line, whatever the column width */
-.nk-aff-hitem--current .nk-aff-horg { white-space: nowrap; }
+/* Four columns are narrow: let org names wrap evenly, with the "Now" badge on its own line */
+.nk-aff-horg { text-wrap: balance; padding: 0 .2rem; }
+.nk-aff-hitem--current .nk-now { display: table; margin: .2rem auto 0; }
 @media (max-width: 480px) {
-  .nk-aff-hitem--current .nk-aff-horg { white-space: normal; }
+  .nk-aff-horg { padding: 0; }
+  .nk-aff-hitem--current .nk-now { display: inline-block; margin: 0 0 0 .35rem; }
 }
 
 /* Research keyword chips */
