@@ -198,14 +198,6 @@ body.dark .post-content a:not(.button):not(:has(svg)) { background-image: var(--
 body.dark .profile_inner span p a:hover, body.dark .profile_inner span a:hover,
 body.dark .post-content a:not(.button):not(:has(svg)):hover { color: #ddd8d8; }
 
-/* Named-person links in the bio: always bright purple, not just on hover */
-.profile_inner .person-link,
-.profile_inner .person-link:hover,
-body.dark .profile_inner .person-link,
-body.dark .profile_inner .person-link:hover {
-  color: var(--accent);
-}
-
 /* Icon/SVG links: magnify on hover */
 .social-icons a { border-radius: 50%; padding: 5px; transition: transform .25s ease, box-shadow .25s ease, background .25s ease !important; }
 .social-icons a svg { width: 22px; height: 22px; }
@@ -656,7 +648,7 @@ body::after {
 /* ---------- Education timeline (profile bio) ---------- */
 .nk-aff-htl {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1.4fr;
   position: relative;
   margin-bottom: 1.3rem;
 }
@@ -664,8 +656,8 @@ body::after {
   content: "";
   position: absolute;
   top: .3rem;
-  left: calc(100% / 8);
-  right: calc(100% / 8);
+  left: calc(100% * .5 / 4.4);
+  right: calc(100% * .7 / 4.4);
   height: 2px;
   border-radius: 2px;
   background: color-mix(in srgb, var(--accent) 22%, transparent);
@@ -747,14 +739,23 @@ body.dark .nk-now {
 }
 
 .nk-aff-horg { font-size: .8rem; font-weight: 700; color: var(--ink); line-height: 1.3; }
-.nk-aff-hrole { font-size: .72rem; color: var(--muted); margin-top: .15rem; line-height: 1.3; }
+.nk-aff-hrole { font-size: .72rem; color: var(--muted); margin-top: .15rem; line-height: 1.3; text-wrap: balance; }
 
-/* Four columns are narrow: let org names wrap evenly, with the "Now" badge on its own line */
+/* Four columns are narrow: let org names wrap evenly, with the "Now" badge right after the name */
 .nk-aff-horg { text-wrap: balance; padding: 0 .2rem; }
-.nk-aff-hitem--current .nk-now { display: table; margin: .2rem auto 0; }
+.nk-aff-hitem--current .nk-now { margin-left: .3rem; }
 @media (max-width: 480px) {
   .nk-aff-horg { padding: 0; }
-  .nk-aff-hitem--current .nk-now { display: inline-block; margin: 0 0 0 .35rem; }
+}
+
+/* Keep org names and roles on shared rows so every column lines up */
+@supports (grid-template-rows: subgrid) {
+  .nk-aff-htl { grid-template-rows: auto 1fr; }
+  .nk-aff-hitem { display: grid; grid-template-rows: subgrid; grid-row: span 2; justify-items: center; align-items: start; align-content: start; }
+  @media (max-width: 480px) {
+    .nk-aff-htl { grid-template-rows: none; }
+    .nk-aff-hitem { display: flex; grid-row: auto; }
+  }
 }
 
 /* Research keyword chips */
